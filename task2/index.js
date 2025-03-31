@@ -4,8 +4,8 @@ let post = [];
 
 const createPost = () => {
   postInfo += `<div class="postWrapper">
-  <h2 class="postTitle">${post.title}</h2>
-  <p class="postText">${post.body}</p>
+  <h2 class="postTitle">Заголовок: ${post.title}</h2>
+  <p class="postText">Статья: ${post.body}</p>
   </div>`
 };
 
